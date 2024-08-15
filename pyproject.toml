@@ -18,9 +18,6 @@ repository = "https://github.com/50shadesofgwei/gmx_python_sdk_custom"
 readme = "README.md"
 license = "MIT"
 
-[tool.setuptools.packages.find]
-namespaces = false
-
 [tool.poetry.dependencies]
 python = ">= 3.10.4"
 numpy = ">= 1.26.3"
