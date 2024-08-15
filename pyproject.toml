@@ -13,6 +13,10 @@ maintainers = [
   "alienf33t <alienf33t@yahoo.com>"
 ]
 
+[tool.setuptools.packages.find]
+include = ["gmx_python_sdk", "gmx_python_sdk.*"]
+namespaces = false
+
 repository = "https://github.com/50shadesofgwei/gmx_python_sdk_custom"
 
 readme = "README.md"
