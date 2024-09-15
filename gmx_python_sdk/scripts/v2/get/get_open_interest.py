@@ -4,7 +4,6 @@ from numerize import numerize
 from .get import GetData
 from .get_oracle_prices import OraclePrices
 from ..gmx_utils import execute_threading
-from GlobalUtils.logger import log_function_call
 
 class OpenInterest(GetData):
     def __init__(self, config: str):
