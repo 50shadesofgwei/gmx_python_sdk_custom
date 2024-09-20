@@ -29,7 +29,7 @@ def get_execution_fee(gas_limits: dict, estimated_gas_limit, gas_price: int):
     adjusted_gas_limit = base_gas_limit + apply_factor(estimated_gas_limit.call(),
                                                        multiplier_factor)
 
-    return adjusted_gas_limit * gas_price
+    return adjusted_gas_limit * gas_price * 2
 
 
 def get_gas_limits(datastore_object):
