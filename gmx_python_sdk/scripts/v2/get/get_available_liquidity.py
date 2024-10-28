@@ -3,7 +3,6 @@ import time
 import numpy as np
 from numerize import numerize
 from typing import Tuple, Any
-from GlobalUtils.logger import logger
 
 from .get import GetData
 from ..gmx_utils import execute_threading
