@@ -54,7 +54,7 @@ contract_map = {
         },
         "exchangerouter":
         {
-            "contract_address": "0x900173a66dbd345006c51fa35fa3ab760fcd843b",
+            "contract_address": "0x900173A66dbD345006C51fA35fA3aB760FcD843b",
             "abi_path": "contracts/arbitrum/exchangerouter.json"
         },
         "depositvault":
